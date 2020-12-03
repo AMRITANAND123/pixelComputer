@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="style/style.css">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
   <title>Welcome in PixelComputer</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -107,6 +108,10 @@
               <div class="form-group">
                 <label for="content">Describe what you want to contact me for here</label>
                 <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
+              </div>
+         <div class="form-group">
+                <label for="content">Captcha</label>
+                <div class="g-recaptcha" data-sitekey="6LfANvcZAAAAAH6vaIJ3HimSieqZMKxyILBX3gmo"></div>
               </div>
 
               <button type="submit" class="btn btn-primary " disabled>Submit</button>
